@@ -1,6 +1,8 @@
 #ifndef _DAMINSTANCE_H_INCLUDED
 #define _DAMINSTANCE_H_INCLUDED
 
+#include <DBLocator.h>
+
 /**
 instanceRunStatus values 
  */
@@ -11,21 +13,16 @@ class DAMInstance{
  public:
   DAMInstance();
   ~DAMInstance();
-  byte getInstanceRunStatus(void);
-  void updateStatus(void);
+  unsigned char getInstanceRunStatus(void);
+  void updateInstanceRunStatus(void);
+  DBLocator *getDBLocator(void);
   
  protected:
 
  private:
-  byte instanceRunStatus;
-}
+  unsigned char instanceRunStatus;
 
-DAMInstance::DAMInstance(void){
-  instnaceRunStatus = INSTANCE_RUN_STATUS_O;
-}
-
-byte DAMInstance::getInstanceRunStatus(void){
-  return( instanceRunStatus );
-}
+  DBLocator *dataBaseLocator;
+};
 
 #endif /* _DAMINSTANCE_H_INCLUDE */
