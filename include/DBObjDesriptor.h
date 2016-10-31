@@ -1,0 +1,4 @@
+#ifndef _DBOBJDESCRIPTOR_H
+#define _DBOBJDESCRIPTOR_H
+
+#endif /* _DBOBJDESCRIPTOR_H  */

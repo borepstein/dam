@@ -14,6 +14,8 @@ class DBLocator{
   
  private:
   uuid_t dbaseUUID;
+
+  
 };
 
 #endif /* _DBLOCATOR_H_INCLUDE */
