@@ -4,3 +4,4 @@
 uuid_t *DBLocator::getDbaseUUID(void){
   return( &dbaseUUID );
 }
+

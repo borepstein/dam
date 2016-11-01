@@ -1,0 +1,6 @@
+#ifndef _DAMCOMMONINCLUDES_H
+#define _DAMCOMMONINCLUDES_H
+
+#define NULL 0
+
+#endif /* _DAMCOMMONINCLUDES_H */

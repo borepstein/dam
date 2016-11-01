@@ -1,5 +1,5 @@
-#ifndef _DBOBJECTFIELDCONTAINER_H
-#define _DBOBJECTFIELDCONTAINER_H
+#ifndef _DBCLASSFIELDCONTAINER_H
+#define _DBCLASSFIELDCONTAINER_H
 
 #include <FieldSpecRec.h>
 
@@ -12,7 +12,7 @@ class DBObjectFieldContainer{
 
  private:
 
-  FieldSpecRec *fieldList;
+  DBClassFieldSpecRec *fieldList;
 }
 
-#endif /* _DBOBJECTFIELDCONTAINER_ */
+#endif /* _DBCLASSFIELDCONTAINER_ */
