@@ -11,4 +11,6 @@ func main(){
     var de dam_core.UnivDataContent
     (&de).InitDataEntry(&content)
     fmt.Printf("de=%s\n", de)
+    me_ptr := dam_core.GetMasterEntry()
+    fmt.Printf("me=%s\n", *me_ptr)
 }
