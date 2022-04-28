@@ -1,4 +1,5 @@
-**DAM Project***
+**DAM Project**
+
 DAM (Data Action Model) is a novel data storage and processing solution.
 
 # Introduction
